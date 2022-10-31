@@ -1,22 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import FetchApi from './components/FetchApi';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Labb 1
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <FetchApi />
       </header>
     </div>
   );
